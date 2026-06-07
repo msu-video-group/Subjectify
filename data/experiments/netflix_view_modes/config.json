@@ -1,0 +1,25 @@
+{
+  "dataset": "netflix",
+  "title": "Bradley-Terry - NETFLIX",
+  "show_title": true,
+  "output_file": "netflix_bradley_terry_convergence_errorbars.png",
+  "score_file": "../../scores/netflix_scores.csv",
+  "require_complete_scores": true,
+  "strategies": [
+    {
+      "name": "sequential",
+      "file": "sequential.csv",
+      "label": "Sequential"
+    },
+    {
+      "name": "sidebyside",
+      "file": "sidebyside.csv",
+      "label": "Side-by-side"
+    },
+    {
+      "name": "manual",
+      "file": "manual.csv",
+      "label": "Manual"
+    }
+  ]
+}

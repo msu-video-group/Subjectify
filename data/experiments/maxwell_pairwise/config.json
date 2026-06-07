@@ -1,0 +1,15 @@
+{
+  "dataset": "maxwell",
+  "title": "Bradley-Terry - Maxwell",
+  "show_title": true,
+  "output_file": "maxwell_bradley_terry_convergence_errorbars.png",
+  "score_file": "../../scores/maxwell_scores.csv",
+  "require_complete_scores": true,
+  "strategies": [
+    {
+      "name": "pairwise",
+      "file": "pairwise.csv",
+      "label": "Pairwise"
+    }
+  ]
+}

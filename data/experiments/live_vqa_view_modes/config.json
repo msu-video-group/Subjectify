@@ -1,0 +1,25 @@
+{
+  "dataset": "live_vqa",
+  "title": "Bradley-Terry - LIVE VQA",
+  "show_title": true,
+  "output_file": "live_vqa_bradley_terry_convergence_errorbars.png",
+  "score_file": "../../scores/live_vqa_scores.csv",
+  "require_complete_scores": true,
+  "strategies": [
+    {
+      "name": "sequential",
+      "file": "sequential.csv",
+      "label": "Sequential"
+    },
+    {
+      "name": "sidebyside",
+      "file": "sidebyside.csv",
+      "label": "Side-by-side"
+    },
+    {
+      "name": "manual",
+      "file": "manual.csv",
+      "label": "Manual"
+    }
+  ]
+}

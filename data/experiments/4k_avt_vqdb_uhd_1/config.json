@@ -1,0 +1,52 @@
+{
+  "dataset": "4k_avt_vqdb_uhd_1",
+  "title": "Bradley-Terry - AVT-VQDB-UHD-1",
+  "show_title": true,
+  "output_file": "4k_avt_vqdb_uhd_1_bradley_terry_correlations.png",
+  "score_file": "../../scores/4k_avt_vqdb_uhd_1_scores.csv",
+  "require_complete_scores": false,
+  "strategies": [
+    {
+      "name": "downscale_720p",
+      "file": "downscale_720p.csv",
+      "label": "Downscale 720p",
+      "max_votes_per_pair": 10
+    },
+    {
+      "name": "center_crop_720p",
+      "file": "center_crop_720p.csv",
+      "label": "Center crop 720p",
+      "max_votes_per_pair": 10
+    },
+    {
+      "name": "saliency_crop_720p",
+      "file": "saliency_crop_720p.csv",
+      "label": "Saliency crop 720p",
+      "max_votes_per_pair": 30
+    },
+    {
+      "name": "downscale_1080p",
+      "file": "downscale_1080p.csv",
+      "label": "Downscale 1080p",
+      "max_votes_per_pair": 10
+    },
+    {
+      "name": "center_crop_1080p",
+      "file": "center_crop_1080p.csv",
+      "label": "Center crop 1080p",
+      "max_votes_per_pair": 10
+    },
+    {
+      "name": "saliency_crop_1080p",
+      "file": "saliency_crop_1080p.csv",
+      "label": "Saliency crop 1080p",
+      "max_votes_per_pair": 30
+    },
+    {
+      "name": "split_frame_1080p",
+      "file": "split_frame_1080p.csv",
+      "label": "Split frame 1080p",
+      "max_votes_per_pair": 40
+    }
+  ]
+}

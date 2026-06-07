@@ -1,0 +1,20 @@
+{
+  "dataset": "live_vqa",
+  "title": "",
+  "show_title": false,
+  "output_file": "training_convergence_errorbars.png",
+  "score_file": "../../scores/live_vqa_scores.csv",
+  "require_complete_scores": true,
+  "strategies": [
+    {
+      "name": "no-training",
+      "file": "no-training.csv",
+      "label": "No-training"
+    },
+    {
+      "name": "training",
+      "file": "training.csv",
+      "label": "Training"
+    }
+  ]
+}

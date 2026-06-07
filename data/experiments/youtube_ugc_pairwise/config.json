@@ -1,0 +1,15 @@
+{
+  "dataset": "youtube_ugc",
+  "title": "Bradley-Terry - Youtube-UGC",
+  "show_title": true,
+  "output_file": "youtube_ugc_bradley_terry_convergence_errorbars.png",
+  "score_file": "../../scores/youtube_ugc_scores.csv",
+  "require_complete_scores": true,
+  "strategies": [
+    {
+      "name": "pairwise",
+      "file": "pairwise.csv",
+      "label": "Pairwise"
+    }
+  ]
+}
